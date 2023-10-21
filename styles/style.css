@@ -91,6 +91,8 @@ body {
 }
 .header .last-heads button:last-child {
   color: #ffffff;
+  padding: 0.8em 1em;
+  border-radius: 0.4em;
   background-color: #003f2e;
 }
 /********************************MAIN*/
@@ -267,7 +269,7 @@ body {
 #week p:nth-last-child(2) {
   color: #000;
 }
-/* 52 audience */
+/* 52 audience ***********/
 .a52 {
   border-radius: var(--oneP2);
   background-color: #003f2e;
@@ -276,7 +278,7 @@ body {
   font-weight: 600;
   color: #fff;
   width: var(--sixteen);
-  margin-top: var(--p2);
+  margin-top: 1em;
 }
 .a52 .audience {
   display: flex;
@@ -340,11 +342,139 @@ body {
 .aud p:last-child {
   justify-self: end;
 }
-.user-info1, .user-info2 {
+.user-info1,
+.user-info2 {
   display: flex;
   padding: 1rem;
 }
 
 .section-3 {
   flex: 1;
+}
+
+.ads {
+  margin-top: 6em;
+  border-radius: 0.8em;
+  width: 80%;
+  padding: 1.4em;
+  background-color: #d9d9ff;
+}
+
+.ads #tk {
+  font-size: 1.6em;
+  color: white;
+  border-radius: 5em;
+  padding: 0.4em;
+  background-color: #00402e;
+}
+
+.ads div {
+  display: flex;
+  align-items: center;
+}
+.ads #ads-m {
+  margin-bottom: 0.8em;
+}
+.ads .tiktok {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  row-gap: 0.2em;
+  margin: 0 0 0 1em;
+}
+
+.ads .tiktok p:nth-child(2) {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.ads #ess {
+  font-size: 0.8em;
+  color: #00000075;
+}
+.ads #rNc {
+  display: flex;
+  column-gap: 0.5em;
+  margin-top: 0.6em;
+}
+/******rules*/
+.rules,
+.clones {
+  display: flex;
+  column-gap: 0.4em;
+  padding: 0.4em 0.6em;
+  font-weight: 600;
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 2em;
+  font-size: 0.66em;
+}
+/**********woman*/
+.woman-sec {
+  margin-top: 1em;
+  border-radius: 0.8em;
+  border: 2px solid #00402e;
+  padding: 0.6em 0.8em;
+  width: 80%;
+}
+.woman-sec img {
+  border-radius: 0.4em;
+  width: 100%;
+}
+.woman-sec #wo-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 0.4em;
+  font-size: 0.8em;
+}
+.woman-sec #wo-icons .fa-heart {
+  border-radius: 100%;
+  padding: 0.6em;
+  background-color: #ffe5ff;
+}
+.woman-sec #wo-icons .fa-thumbs-up {
+  border-radius: 100%;
+  border: 3px solid white;
+  margin-left: -0.4em;
+  padding: 0.6em;
+  background-color: #b6ff80;
+}
+.woman-sec #icons-num {
+  display: flex;
+  align-items: center;
+  margin: 0.3em 0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.woman-sec #icons-num p {
+  margin-left: 0.4em;
+}
+/***********cleancult*/
+.last-div {
+  padding: 1em;
+  background-color: #bbfdf4;
+  margin-top: 1em;
+  width: 80%;
+  border-radius: 0.6em;
+}
+.last-div #cl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last-div p {
+  font-weight: 600;
+}
+.last-div #txt {
+  margin-top: 1em;
+  font-size: 0.64em;
+  color: #0000006f;
+}
+.last-div #lil-author {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+.last-div #lil-author p {
+  font-size: 0.8em;
+  margin-left: 0.8em;
 }
